@@ -1,0 +1,119 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 25px;
+  background-color: #2a00f8;
+  color: #fff;
+  border-radius: 8px;
+  display: flex;align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h2 {
+  text-align: center;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+input[type="text"]{
+  margin-top: 30px;
+}
+
+input[type="text"],
+input[type="tel"]{
+  width: auto;
+}
+
+input[type="text"],
+input[type="tel"],
+button {
+  width: 100vw;
+  max-width: 550px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #ffffff;
+  color: #000000;
+  cursor: pointer;
+  margin-bottom: 14px;
+  width: 130px;
+}
+
+button:hover {
+  background-color: #b4bac0;
+}
+
+input[type="text"]:focus,
+input[type="tel"]:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+p{
+width: 436px;
+text-align: center;
+font-size: 12px;
+}

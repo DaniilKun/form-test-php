@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма обратной связи</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Оставьте заявку и мы свяжемся с Вами</h2>
+        <form action="send_form.php" method="POST">
+            <input type="text" name="name" placeholder="Ваше имя*" required>
+            <input type="tel" name="phone" placeholder="Ваш телефон*" required>
+            <button type="submit">Отправить</button>
+        </form>
+        <p>Нажимая на кнопку, вы даете согласие на обработку своих персональных данных и принимаете условия политики конфиденциальности.</p>
+    </div>
+</body>
+</html>
