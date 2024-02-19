@@ -2,7 +2,7 @@
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = $_POST['name'];
     $phone = $_POST['phone'];
-    $to = "daniilkun1997@mail.ru";
+    $to = "kargina@fmf.ru";
     $subject = "Новая заявка";
     $message = "Имя: " . $name . "\n" . "Телефон: " . $phone;
     $headers = "From: webmaster@example.com" . "\r\n" .
