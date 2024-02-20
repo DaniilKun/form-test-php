@@ -113,7 +113,7 @@ input[type="tel"]:focus {
 }
 
 p{
-width: 436px;
+max-width: 436px;
 text-align: center;
 font-size: 12px;
 }
